@@ -12,12 +12,6 @@
   <h1><b>Morse Decoder</b></h1><a name="about-project"></a>
 </div>
 
-
-
-
-
-
-
 <!--
 HOW TO USE:
 This is an example of how you may give instructions on setting up your project locally.
@@ -40,7 +34,6 @@ REQUIRED SECTIONS:
 After you're finished please remove all the comments and instructions!
 -->
 
-
 <!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
@@ -61,21 +54,19 @@ After you're finished please remove all the comments and instructions!
   - [🤝 Contributing ](#-contributing-)
   - [⭐️ Show your support ](#️-show-your-support-)
   - [🙏 Acknowledgments ](#-acknowledgments-)
-  - [❓ FAQ ](#-faq-)
   - [📝 License ](#-license-)
 
 <!-- PROJECT DESCRIPTION -->
 
 # 📖 Morse Decoder <a name="about-project"></a>
 
-> I built a vet clinic database that stores information about animals. The database can be queried by different parameters.
-
+> The **_Morse Decoder_** is a project that allows you to decode morse code.
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
-> The site was built with PSQL
+> Ruby
 
 <!-- <details>
   <summary>Client</summary>
@@ -91,28 +82,27 @@ After you're finished please remove all the comments and instructions!
   </ul>
 </details> -->
 
-<details>
+<!-- <details>
 <summary>Database</summary>
   <ul>
     <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
   </ul>
-</details>
+</details> -->
 
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
 
-
-- **The DB contains information about animals**
-- **You can find animals by different queries**
+- Decodes a message wrote using morse code.
+- Use of Ruby's best practices.
+- Use of Gitflow.
+- Use of linters.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- - Not available
 
 ## 🚀 Live Demo <a name="live-demo"></a> -->
-
-
 
 <!-- - [Live Demo Link](<replace-with-your-deployment-URL>)
 
@@ -122,44 +112,39 @@ After you're finished please remove all the comments and instructions!
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-To get a local copy up and running, follow these steps.
-
 ### Prerequisites
 
 In order to run this project you need:
 
-
-
-```sh
-sudo apt-get install postgresql postgresql-contrib 
-```
-
+- Install [Ruby](https://www.ruby-lang.org/en/documentation/installation/).
+- Create a repo on your repositores files.
+- Clone or make a copy of this repo on your local machine.
+- Follow GitHub flow.
+- A carefully reading of this README.md is required.
 
 ### Setup
 
 Clone this repository to your desired folder:
 
-
 ```sh
   cd my-folder
-  git clone https://github.com/SergioPeralta22/MV-vet-clinic.git
+  git clone https://github.com/SergioPeralta22/morse-decoder.git
 ```
 
 ### Install
 
 Install this project with:
 
-
 ```sh
-  cd MV-vet-clinic
+  bundle install
 ```
 
 ### Usage
 
-To run the project, execute the following command:
+To run the project, run the following command:
 
-```
-not available
+```sh
+  ruby morse_decoder.rb
 ```
 
 ### Run tests
@@ -167,7 +152,7 @@ not available
 To run tests, run the following command:
 
 ```
-not available
+rubocop
 ```
 
 <!-- ### Deployment
@@ -194,13 +179,22 @@ Example:
 - Twitter: [@SePeralta22](https://twitter.com/SePeralta22)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/sergioperalta22)
 
+👤 **steven wafeek**
+
+- GitHub: [StevenWafeek](https://github.com/StevenWafeek)
+- Twitter: [steven_hakeem](https://twitter.com/steven_hakeem)
+- LinkedIn: [steven wafeek
+  ](https://www.linkedin.com/in/steven-wafeek-b629341b6/)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **More data**
+- **More data**
+- **More decodes**
+- **More supported languages**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -220,7 +214,6 @@ Feel free to check the [issues page](../../issues/).
 
 If you like this project,please give it a ⭐️!
 
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- ACKNOWLEDGEMENTS -->
@@ -229,23 +222,19 @@ If you like this project,please give it a ⭐️!
 
 I would like to thank Microverse for giving me the opportunity to learn and grow as a developer.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 <!-- FAQ (optional) -->
-
+<!--
 ## ❓ FAQ <a name="faq"></a>
 
 - **Do I need to install any program before running this project?**
 
-  - [ ] **Yes, you need to install PostgreSQL** 
-  
+  - [ ] **Yes, you need to install PostgreSQL**
+
   <br>
 
 - **Can I use this project for my own purposes?**
 
-  - [ ] **Yes, you can.**
-
-
+  - [ ] **Yes, you can.** -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -254,6 +243,5 @@ I would like to thank Microverse for giving me the opportunity to learn and grow
 ## 📝 License <a name="license"></a>
 
 This project is [MIT](./LICENSE) licensed.
-
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
