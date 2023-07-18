@@ -28,3 +28,14 @@ end
 def decode_word(word)
   word.split.map { |morse| morse_decoder(morse) }.join
 end
+
+# transfor the 3 spaces to 1 space and decode the message.
+def decode_message(message)
+  message.split('   ').map { |word| decode_word(word) }.join(' ')
+end
+
+# write your morse code here
+message = '  .-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-.   .-. ..- -... .. . ...'
+decoded_message = decode_message(message)
+
+puts decoded_message
