@@ -61,21 +61,20 @@ After you're finished please remove all the comments and instructions!
   - [🤝 Contributing ](#-contributing-)
   - [⭐️ Show your support ](#️-show-your-support-)
   - [🙏 Acknowledgments ](#-acknowledgments-)
-  - [❓ FAQ ](#-faq-)
   - [📝 License ](#-license-)
 
 <!-- PROJECT DESCRIPTION -->
 
 # 📖 Morse Decoder <a name="about-project"></a>
 
-> I built a vet clinic database that stores information about animals. The database can be queried by different parameters.
+> The ***Morse Decoder*** is a project that allows you to decode morse code.
 
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
-> The site was built with PSQL
+> Ruby
 
 <!-- <details>
   <summary>Client</summary>
@@ -91,20 +90,23 @@ After you're finished please remove all the comments and instructions!
   </ul>
 </details> -->
 
-<details>
+<!-- <details>
 <summary>Database</summary>
   <ul>
     <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
   </ul>
-</details>
+</details> -->
+
 
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
 
 
-- **The DB contains information about animals**
-- **You can find animals by different queries**
+- Decodes a message wrote using morse code.
+- Use of Ruby's best practices.
+- Use of Gitflow.
+- Use of linters.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -122,17 +124,17 @@ After you're finished please remove all the comments and instructions!
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
+
 In order to run this project you need:
 
-
-
-```sh
-sudo apt-get install postgresql postgresql-contrib 
-```
+- Install (Ruby)[https://www.ruby-lang.org/en/documentation/installation/].
+- Create a repo on your repositores files.
+- Clone or make a copy of this repo on your local machine.
+- Follow GitHub flow.
+- A carefully reading of this README.md is required.
 
 
 ### Setup
@@ -142,7 +144,7 @@ Clone this repository to your desired folder:
 
 ```sh
   cd my-folder
-  git clone https://github.com/SergioPeralta22/MV-vet-clinic.git
+  git clone https://github.com/SergioPeralta22/morse-decoder.git
 ```
 
 ### Install
@@ -151,15 +153,15 @@ Install this project with:
 
 
 ```sh
-  cd MV-vet-clinic
+  bundle install
 ```
 
 ### Usage
 
-To run the project, execute the following command:
+To run the project, run the following command:
 
-```
-not available
+```sh
+  ruby morse_decoder.rb
 ```
 
 ### Run tests
@@ -167,7 +169,7 @@ not available
 To run tests, run the following command:
 
 ```
-not available
+rubocop
 ```
 
 <!-- ### Deployment
@@ -232,7 +234,7 @@ I would like to thank Microverse for giving me the opportunity to learn and grow
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FAQ (optional) -->
-
+<!-- 
 ## ❓ FAQ <a name="faq"></a>
 
 - **Do I need to install any program before running this project?**
@@ -243,7 +245,7 @@ I would like to thank Microverse for giving me the opportunity to learn and grow
 
 - **Can I use this project for my own purposes?**
 
-  - [ ] **Yes, you can.**
+  - [ ] **Yes, you can.** -->
 
 
 
